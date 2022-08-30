@@ -1,0 +1,22 @@
+{
+  "name": "yt-cron-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "googleapis": "^107.0.0",
+    "mongoose": "^5.10.15",
+    "mongoose-fuzzy-searching": "^2.0.2",
+    "node-cron": "^3.0.2"
+  }
+}
